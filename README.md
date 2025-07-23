@@ -25,9 +25,7 @@ STM32F4 기반 MCU에서 HAL FUNCTION 사용 없이 BMP180 (I2C 센서)와 LCD16
 ## 🖥 시스템 구성도
 
 ```
-[BMP180] ⇄ I2C ⇄
-                 \
-                  [STM32 MCU] ⇄ LCD1602 (4bit GPIO)
+[BMP180] ⇄ I2C ⇄ [STM32 MCU] ⇄ I2C ⇄ LCD1602 (4bit GPIO)
 ```
 
 ## 📊 결과 및 성과
